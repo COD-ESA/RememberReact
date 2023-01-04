@@ -1,6 +1,6 @@
+import StarRaiting from '../star/Star'
 import {datas} from '../data/data'
 import './Users.css'
-// const {log} = console;
 
 export default function User(){
   return (
@@ -19,6 +19,7 @@ export default function User(){
               <li>zipcode &nbsp;{el['address'].zipcode}</li>
             </ul>
           </div>
+          <StarRaiting/>
         </div>
       ))}
     </ol>

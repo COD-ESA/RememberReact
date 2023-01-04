@@ -7,7 +7,7 @@
 }
 
 .Users-ol h3{
-  color: lime
+  color: blue
 }
 
 .mapUser{
@@ -16,8 +16,8 @@
   border-width: 1px;
   border-color: aqua;
   border-style: solid;
-  border-radius: 25%;
-  background-color: crimson;
+  border-radius: 10%;
+  background-color: deepskyblue;
   cursor: pointer;
 }
 .mapUser:hover{
@@ -48,5 +48,5 @@ h5{
   margin-bottom: 5px;
 }
 h5, .Users-email, .Users-name{
-  color:chartreuse;
+  color: darkorange;
 }
