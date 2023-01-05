@@ -23,18 +23,14 @@
 .mapUser:hover{
   border-color: blue;
   transform: scale(1.1);
-  transition-duration: 0.5s;
+  transition-duration: 1s;
 }
 .Users-info{
   text-align: left;
   padding-left: 10px;
 }
 
-.Users-name {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.Users-email {
+.Users-name, .Users-email {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

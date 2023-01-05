@@ -1,4 +1,4 @@
-import StarRaiting from '../star/Star'
+import StarRaiting from '../StarRaiting/StarRaiting'
 import {datas} from '../data/data'
 import './Users.css'
 
@@ -19,7 +19,7 @@ export default function User(){
               <li>zipcode &nbsp;{el['address'].zipcode}</li>
             </ul>
           </div>
-          <StarRaiting/>
+          <StarRaiting style={{background:'lime', width: '80%', transform:'translateX(13%)', borderTopLeftRadius:'60%', borderTopRightRadius:'60%'}}/>
         </div>
       ))}
     </ol>
