@@ -1,8 +1,23 @@
 .Menu {
-  display: flex;
   width: 100vw;
-  justify-content: center;
   background-color: blueviolet;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.Menu-ol{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  text-align: center;
+}
+.Menu-mapUser{
+  width: 100%;
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-color: aqua;
+  border-style: solid;
+  border-radius: 10%;
+  background-color: deepskyblue;
+  cursor: pointer;
 }
