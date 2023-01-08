@@ -12,6 +12,10 @@ h3{
   padding-bottom: 8px;
   list-style: none;
 }
+.Users-buttonTrash{
+  cursor: pointer;
+  margin-top: 3px;
+}
 span{
   display: inline-block;
   width: 60px;

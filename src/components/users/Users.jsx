@@ -1,8 +1,15 @@
+import {FaTrash} from 'react-icons/fa'
 import './Users.css'
 
-export default function User({name, username,email,address}){
+const {log} = console;
+
+export default function User({name, username,email,address,id, myIdClick=f=>f}){
+
   return (
     <>
+      <button className="Users-buttonTrash" onClick={() => myIdClick(id)}>
+        <FaTrash/>
+      </button>
       <h3>{name}</h3>
       <div className="Users-info">
         <h4 className="Users-name"><span>Имя:</span>  {username}</h4>
@@ -16,6 +23,5 @@ export default function User({name, username,email,address}){
         </ul>
       </div>
     </>
-
   );
 }

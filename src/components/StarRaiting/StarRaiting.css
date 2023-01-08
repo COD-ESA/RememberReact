@@ -1,0 +1,7 @@
+.StarRaiting{
+  background: lime ;
+  width: 80%;
+  transform: translateX(13%);
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+}
